@@ -7,6 +7,7 @@ function App() {
 
   return (
     <div className="App flex flex-col items-center justify-center min-h-screen py-2">
+      <h2 className='text-center font-bold text-3xl text-blue-800'>Welcome to D'Clinik</h2>
       <AdminSideBar/>
     </div>
   )
