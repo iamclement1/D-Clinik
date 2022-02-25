@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import AdminNavbar from './Components/Admin/AdminNavbar'
 import AdminSideBar from './Components/Admin/AdminSideBar'
 
 
@@ -10,6 +11,7 @@ function App() {
     <Router>
       <div className='App'>
         <AdminSideBar />
+        <AdminNavbar />
         <Routes>
           <Route />
         </Routes>
