@@ -29,10 +29,10 @@ function AdminSideBar() {
             </svg>
         )}
 
-        <div className={`top-0 right-0 w-[17vw] bg-blue-800
-        text-white fixed h-full z-40 p-10 ease-in-out duration-300
+        <div className={`top-0 right-0 md:w-[17vw] w-[] bg-blue-800
+        text-white fixed h-full z-40 md:p-10 p-3 ease-in-out duration-300
         ${ !isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
-            <h2 className='mt-10 text-2xl font-bold text-white'>
+            <h2 className='mt-10 md:text-2xl text-sm font-bold text-white'>
                 D'Clinik
             </h2>
             <p className='text-xs'>Home of hospitality</p>
