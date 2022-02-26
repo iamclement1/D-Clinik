@@ -6,7 +6,7 @@ function AdminNavbar() {
     <div>
         <nav className='flex p-4 shadow-md'>
             <div className=''>
-                <NavLink to='/' className={`font-bold text-2xl md:pl-10 pl-0 text-blue-800`}>
+                <NavLink to='/' className={`font-bold text-4xl md:pl-10 pl-0 text-blue-800`}>
                     D'Clinik
                 </NavLink>
             </div>
