@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHouse, faAddressCard } from '@fortawesome/free-solid-svg-icons';
 
 function AdminSideBar() {
 
@@ -27,20 +29,25 @@ function AdminSideBar() {
             </svg>
         )}
 
-        <div className={`top-0 right-0 w-[15vw] bg-blue-800
+        <div className={`top-0 right-0 w-[17vw] bg-blue-800
         text-white fixed h-full z-40 p-10 ease-in-out duration-300
         ${ !isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
-            {/* <h2 className='mt-20 text-sm font-semibold text-white'>
-                I am a AdminSideBar
-            </h2> */}
-            <ul className='flex flex-col'>
-                <NavLink to='/' className='text-xl font-bold'>Home</NavLink>
-                <NavLink to='/' className='text-xl font-bold'>Home</NavLink>
-                <NavLink to='/' className='text-xl font-bold'>Home</NavLink>
-                <NavLink to='/' className='text-xl font-bold'>Home</NavLink>
-                <NavLink to='/' className='text-xl font-bold'>Home</NavLink>
-                <NavLink to='/' className='text-xl font-bold'>Home</NavLink>
-                <NavLink to='/' className='text-xl font-bold'>Home</NavLink>
+            <h2 className='mt-10 text-2xl font-bold text-white'>
+                D'Clinik
+            </h2>
+            <p className='text-xs'>Home of hospitality</p>
+            <ul className='flex flex-col pt-12 text-sm'>
+                <NavLink to='/' className='font-bold pb-3'>
+                    <FontAwesomeIcon icon={faHouse} /> Dashboard
+                </NavLink>
+                
+                <NavLink to='/' className='font-bold'>
+                    <FontAwesomeIcon icon={faAddressCard} /> About 
+                </NavLink>
+                <NavLink to='/' className='font-bold'>Contact</NavLink>
+                <NavLink to='/' className='font-bold'>Sign In</NavLink>
+                <NavLink to='/' className='font-bold'>Register</NavLink>
+                <NavLink to='/' className='font-bold'>Home</NavLink>
             </ul>
         </div>
         </>
@@ -48,3 +55,4 @@ function AdminSideBar() {
 }
 
 export default AdminSideBar
+
