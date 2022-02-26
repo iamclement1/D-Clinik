@@ -13,8 +13,8 @@ function App() {
   return (
     <Router>
       <div className='App'>
-        <AdminSideBar />
-        <AdminNavbar />
+        {/* <AdminSideBar />
+        <AdminNavbar /> */}
         <Routes>
           <Route path="/" exact element={<LogIn/>} />
           <Route path="/forgot-password" exact element={<ResetPassword/>} />
