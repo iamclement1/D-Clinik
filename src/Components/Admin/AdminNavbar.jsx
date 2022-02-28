@@ -4,21 +4,21 @@ import { NavLink } from "react-router-dom";
 function AdminNavbar() {
   return (
     <div>
-      <nav className="flex p-4 shadow-md">
-        <div className="">
-          <NavLink
-            to="/"
-            className={`font-bold text-4xl md:pl-10 pl-0 text-blue-800`}
-          >
-            D'Clinik
-          </NavLink>
-        </div>
-        {/* <div className=''>
+        <nav className="flex p-4 shadow-md">
+            <div className="">
+                <NavLink
+                to="/"
+                className={`font-bold text-4xl md:pl-10 pl-0 text-blue-800`}
+                >
+                    D'Clinik
+                </NavLink>
+            </div>
+            {/* <div className=''>
                 icons
             </div> */}
-      </nav>
+        </nav>
     </div>
-  );
+);
 }
 
 export default AdminNavbar;
