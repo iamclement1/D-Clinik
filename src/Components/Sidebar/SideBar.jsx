@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse, faAddressCard } from '@fortawesome/free-solid-svg-icons';
 
-function AdminSideBar() {
+function SideBar() {
 
     const [ isOpen , setIsOpen ] = useState(false);
     
@@ -54,5 +54,5 @@ function AdminSideBar() {
 )
 }
 
-export default AdminSideBar
+export default SideBar
 

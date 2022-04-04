@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-function AdminNavbar() {
+function Navbar() {
     
     return (
     <div>
@@ -22,4 +22,4 @@ function AdminNavbar() {
 );
 }
 
-export default AdminNavbar;
+export default Navbar;

@@ -4,7 +4,8 @@ import { faStethoscope } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function LogIn() {
-  return (
+
+    return (
     <div className=" container m-auto justify-center">
         <div className="row">
             <div className=" flex offset-md-3 bg-light shadow-lg
@@ -58,8 +59,7 @@ function LogIn() {
             </div>
         </div>
     </div> 
- 
-  )
+)
 }
 
 export default LogIn
