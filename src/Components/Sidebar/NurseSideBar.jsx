@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
-import { Link, NavLink } from 'react-router-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faAddressCard } from '@fortawesome/free-solid-svg-icons';
+import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHouse, faAddressCard } from '@fortawesome/free-solid-svg-icons'
 
-function SideBar() {
+function NurseSideBar() {
 
     const [ isOpen , setIsOpen ] = useState(false);
-    
+
     return (
 
         <>
@@ -51,8 +51,7 @@ function SideBar() {
             </ul>
         </div>
         </>
-)
+  )
 }
 
-export default SideBar
-
+export default NurseSideBar
