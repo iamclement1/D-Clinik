@@ -2,7 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 function AdminNavbar() {
-  return (
+    
+    return (
     <div>
         <nav className="flex p-4 shadow-md">
             <div className="">
