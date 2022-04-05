@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Appointment from './Pages/Doctor/Appointment'
 import LogIn from './Pages/LogIn'
 import ResetPassword from './Pages/ResetPassword'
+import Dashboard from './Pages/Doctor/Dashboard'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/doctor/appointment" exact element={<Appointment/>} />
           <Route path="/" exact element={<LogIn/>} />
+          <Route path="/dashboard"  exact element={<Dashboard/>} />
           <Route path="/forgot-password" exact element={<ResetPassword/>} />
         </Routes>
       </div>
