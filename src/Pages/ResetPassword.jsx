@@ -6,15 +6,15 @@ function ResetPassword() {
     return (
     <div className="container-fluid m-auto h-screen">
         <div className="row">
-            <div className="col-md-6 offset-md-3 pt-32">
-                <form className="md:w-2/6 shadow-md m-auto p-2">
+            <div className="col-md-12 offset-md-3 pt-32">
+                <form className="md:w-2/6 shadow-md m-auto p-3">
                     <div className="mb-3 mt-3">
-                        <h1 className="text-blue-500 text-center text-3xl
+                        <h1 className="text-blue-500 text-center text-6xl
                         font-bold mb-4">
                             D'Clinik
                         </h1>
                         {/* <h4 className="h4 text-center">Reset Password:</h4> */}
-                        <p className="text-center text-xs px-6">
+                        <p className="text-center text-2xl px-6">
                             Enter the email associated with your account and we'll
                             send you a link to reset your password{" "}
                             

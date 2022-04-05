@@ -9,12 +9,11 @@ function LogIn() {
     <div className=" container m-auto justify-center">
         <div className="row">
             <div className=" flex offset-md-3 bg-light shadow-lg
-            m-auto md:w-3/6 md:mt-10 mt-5  md:px-10 px-3 py-10 justify-cente">
-                <form className='flex flex-col mx-auto md:w-4/5 w-
-                p-5'>
-                    <FontAwesomeIcon icon={faStethoscope} className='md:text-4xl 
-                    text-2xl mb-4 text-blue-900' />
-                    <h2 className='md:text-2xl text-xl font-bold text-center'>
+            m-auto md:w-3/6 md:mt-12 mt-5  md:px-15 px-3 py-10 justify-center">
+                <form className='flex flex-col mx-auto md:w-4/5 w-5/6 p-5'>
+                    <FontAwesomeIcon icon={faStethoscope} className='md:text-6xl 
+                    text-2xl mb-4 text-gray-700' />
+                    <h2 className='md:text-2xl text-3xl font-bold text-center'>
                         Log in to your account
                         
                     </h2>

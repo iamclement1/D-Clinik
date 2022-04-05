@@ -13,10 +13,10 @@ function App() {
     <Router>
       <div className='App'>
         <Routes>
-          <Route path="/doctor/appointment" exact element={<Appointment/>} />
-          <Route path="/" exact element={<LogIn/>} />
-          <Route path="/dashboard"  exact element={<Dashboard/>} />
-          <Route path="/forgot-password" exact element={<ResetPassword/>} />
+          <Route path="/doctor/appointment"  element={<Appointment/>} />
+          <Route path="/" element={<LogIn/>} />
+          <Route path="/dashboard"   element={<Dashboard/>} />
+          <Route path="/forgotpassword" element={<ResetPassword/>} />
         </Routes>
       </div>
     </Router>

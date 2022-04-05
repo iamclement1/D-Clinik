@@ -5,6 +5,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse, faAddressCard } from '@fortawesome/free-solid-svg-icons'
 
 function DoctorSideBar() {
+
+    const [ isOpen , setIsOpen ] = useState(false);
+
     return (
         <>
         { !isOpen ? (
@@ -48,7 +51,7 @@ function DoctorSideBar() {
             </ul>
         </div>
         </>
-  )
+)
 }
 
 export default DoctorSideBar
