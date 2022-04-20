@@ -4,13 +4,9 @@ import SideBar from '../../Components/SideBar/SideBar'
 
 function Dashboard() {
     return (
-    <div>
-        <Navbar />
-        <SideBar />
-        <h1>
-            Doctor's Dashboard
-        </h1>
-    </div>
+        <div>
+                hello
+        </div>
 )
 }
 
