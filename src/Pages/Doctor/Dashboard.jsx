@@ -1,12 +1,13 @@
 import React from 'react'
 import Navbar from '../../Components/Navbar/Navbar'
-import SideBar from '../../Components/SideBar/SideBar'
+import DoctorSideBar from '../../Components/Sidebar/DoctorSideBar'
+import DashboardContent from './DashboardContent'
 
 function Dashboard() {
     return (
-        <div>
-                hello
-        </div>
+      <div>
+      Hello 
+      </div>
 )
 }
 
