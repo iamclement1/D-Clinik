@@ -29,20 +29,20 @@ function DoctorSideBar() {
             </svg>
         )}
 
-        <div className={`top-0 right-0 md:w-[17vw] w-[] bg-blue-800
+        <div className={`top-0 right-0 md:w-[15vw] w-[] bg-blue-800
         text-white fixed h-full z-40 md:p-10 p-3 ease-in-out duration-300
         ${ !isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
-            <h2 className='mt-10 md:text-2xl text-sm font-bold text-white'>
+            <h2 className='mt-10 md:text-6xl text-3xl font-bold text-white'>
                 D'Clinik
             </h2>
-            <p className='text-xs'>Home of hospitality</p>
+            <p className='md:text-2xl text-xl'>Home of hospitality</p>
             <ul className='flex flex-col pt-12 text-sm text-center'>
                 <NavLink to='/' className='font-bold pb-3'>
-                    <FontAwesomeIcon icon={faHouse} className="text-3xl" />
+                    <FontAwesomeIcon icon={faHouse} className="text-6xl" />
                 </NavLink>
                 
                 <NavLink to='/' className='font-bold'>
-                    <FontAwesomeIcon icon={faAddressCard} className='text-3xl pt-3' />
+                    <FontAwesomeIcon icon={faAddressCard} className='text-6xl pt-3' />
                 </NavLink>
                 <NavLink to='/' className='font-bold'>Contact</NavLink>
                 <NavLink to='/' className='font-bold'>Sign In</NavLink>

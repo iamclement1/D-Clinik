@@ -9,7 +9,7 @@ function Navbar() {
             <div className="">
                 <NavLink
                 to="/"
-                className={`font-bold text-4xl md:pl-10 pl-0 text-blue-800`}
+                className={`relative font-bold text-4xl md:pl-10 pl-0 text-blue-800`}
                 >
                     D'Clinik
                 </NavLink>
