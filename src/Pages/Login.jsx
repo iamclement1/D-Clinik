@@ -10,7 +10,7 @@ function Login() {
     <div className="">
         <div className="container-xxl position-relative login-background">
             <div className="container m-auto justify-center">
-                <div className="row w-50 m-auto">
+                <div className="row w-50 w-lg-75 m-auto">
                     <div className="w-75 px-6 bg-white shadow-sm m-auto mt-12">
                         <div className="px-4 m-auto">
                             <form className="mx-auto">
