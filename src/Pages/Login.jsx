@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { faStethoscope } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Form } from 'react-bootstrap'
 
 function Login() {
 
@@ -9,16 +8,18 @@ function Login() {
     const [ password, setPassword ] = useState('')
     return (
     <div className="">
-        <div className="container-xxl position-relative">
+        <div className="container-xxl position-relative login-background">
             <div className="m-auto justify-center">
-                <div className="row">
-                    <div className="col-md-4">
-                        <div className="flex offset-md-3 bg-white shadow-sm m-auto mt-12">
+                <div className="row w-50 m-auto">
+                    <div className="w-75 px-6 bg-white shadow-sm m-auto mt-12">
+                        <div className="px-4 m-auto">
                             <form className="mx-auto">
-                                <FontAwesomeIcon icon={faStethoscope} className='text-2xl'/>
-                                <h2 className='fs-4'>
+                                {/* <FontAwesomeIcon icon={faStethoscope} 
+                                className='fa-3x'/> */}
+                                <h2 className='fs-4 text-center'>
                                     Login to your account
                                 </h2>
+                                <hr />
 
                                 <div className='text-start'>
                                     <label htmlFor="">Email</label>
@@ -28,7 +29,7 @@ function Login() {
                                     onChange={ (e) => setEmail(e.target.value)} />
                                 </div>
 
-                                <div className='text-start'>
+                                <div className='text-start mb-3'>
                                     <label htmlFor="">Password</label>
                                     <input type="password" className="form-control" 
                                     placeholder="Password"
@@ -41,7 +42,6 @@ function Login() {
                             </form>
                         </div>
                     </div>
-                    <div className="col-md-8"></div>
                 </div>
             </div>
         </div>
