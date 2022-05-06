@@ -9,7 +9,7 @@ function Login() {
     return (
     <div className="">
         <div className="container-xxl position-relative login-background">
-            <div className="m-auto justify-center">
+            <div className="container m-auto justify-center">
                 <div className="row w-50 m-auto">
                     <div className="w-75 px-6 bg-white shadow-sm m-auto mt-12">
                         <div className="px-4 m-auto">
