@@ -5,7 +5,7 @@ and it is aimed at solving or managing clincal records.
 
 # Getting Started with Urbane Foods
 
-Fork the repository and clone to local machine using, [Repo Url](git@github.com:iamclement1/D-Clinik.git)
+Fork the repository and clone to local machine using [Repo Url](https://github.com/iamclement1/D-Clinik.git), 
 `git clone [repo url]`
 
 ### Installing project dependencies
