@@ -31,9 +31,13 @@ export default function Sidebar({sideOne, sideOneIcon}) {
                 <li className="sidebarWrapperListItem">
                     <FontAwesomeIcon icon={sideOneIcon} className="sidebarWrapperListItemIcon"/> {sideOne}
                 </li>
-                <li className="sidebarWrapperListItem">
-                    <FontAwesomeIcon icon={faMailBulk} className="sidebarWrapperListItemIcon"/> Mail
-                </li>
+
+                <Link to="/doctor/mail/inbox">
+                    <li className="sidebarWrapperListItem">
+                        <FontAwesomeIcon icon={faMailBulk} className="sidebarWrapperListItemIcon"/> Mail
+                    </li>
+                </Link>
+                
             </ul>
         </div>
     </div>
